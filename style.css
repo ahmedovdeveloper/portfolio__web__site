@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.conteanr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    height: 100px;
+
+}
+
+.nav__ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.main__portfolio {
+    width: 600px;
+}
+
+.section__home {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left__section__home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.left__section__home>h1 {
+    font-size: 60px;
+    font-weight: 550;
+}
+
+.left__section__home>h2 {
+    font-weight: 500;
+}
+
+.icon__Section__home {
+    display: flex;
+    gap: 20px;
+}
+
+.btn__section__home {
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    background-size: 200% auto;
+    ;
+    padding: 15px 38px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.btn__section__home :hover {
+    background: linear-gradient(bottom, #1345e6 0%, #ed239f 0%, #1345e6 100%);
+}
+
+.card>h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #00bcd4;
+    font-size: 30px;
+}
+
+.card>p {
+
+    margin: 10px;
+    color: #00bcd4;
+    /* font-size: 30px; */
+    text-align: center;
+}
+
+.card {
+    width: 150px;
+    height: 120px;
+    background-color: #f3f3f3;
+}
+
+.section__card {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.section__about__me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left__section__about>img {
+    width: 450px;
+}
+
+.section__about__lorem {
+    width: 403px;
+    color: rgb(207, 184, 184);
+    font-size: 1rem;
+    ;
+}
+
+.right__section__about>h4 {
+    font-size: 1.2rem;
+    color: rgb(207, 184, 184);
+    font-weight: 550;
+
+}
+
+.right__section__about>h2 {
+    width: 526px;
+    font-size: 3rem;
+}
+
+.right__section__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn__section__home {
+    width: 200px;
+}
+
+.section__about__me {
+    padding: 50px 0;
+}
+
+
+img:hover {
+    coloe
+}
+
+.section__offer {
+    padding: 30px 0;
+}
+
+.section__offer>p {
+    color: #00bcd4;
+    font-size: 1.2rem;
+}
+
+.section__offer>h3 {
+    width: 510px;
+    font-size: 2.5rem;
+    padding: 15px 0;
+    font-weight: 900;
+}
+
+.card__popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+
+.card__pop1 {
+    width: 350px;
+    height: 400px;
+    background: #eceef5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    transition: all 0.5s;
+}
+
+.card__pop1>img {
+    margin-top: 20px;
+}
+
+.card__pop1>h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+.card__pop1>p {
+    margin: 0 15px;
+    color: #b8babf;
+    text-align: center;
+}
+
+.card__pop1>h6 {
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+.card__pop1:hover {
+    background-color: #5f30ff;
+    color: white;
+}
+
+
+.section__ho>h3 {
+    color: #00bcd4;
+    font-weight: 500;
+}
+
+.section__ho>h2 {
+    font-size: 2.5rem;
+    width: 430px;
+    padding: 15px 0;
+}
+
+
+.card__img {
+    background-color: #1345e6;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+
+.card__img>img {
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 200px;
+}
+
+
+.section__ho21 {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}
+
+.right__section__ho {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rigth__section__ho>p {
+    width: 600px;
+    font-size: 1.2rem;
+}
+
+.rigth__section__ho {
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.portfolio {
+    padding: 80px 0;
+}
+
+.them {
+    color: #00bcd4;
+}
+
+.work {
+    width: 400px;
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+.card__hover {
+    transition: all 0.4s ease 0s;
+    display: none;
+}
+
+.img__population1 {
+    position: relative;
+    width: 680px;
+
+}
+
+
+.popular__section {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 400px 400px;
+    align-items: center;
+
+
+}
+
+
+.mama {
+    width: 500px;
+    height: 300px;
+}
+
+
+
+.img__population1:hover>.card__hover {
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    display: block;
+    background-color: #5f30ff;
+    opacity: 0.9;
+    width: 500px;
+    height: 330px;
+}
+
+.text__info {
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    font-size: 1.5rem;
+    ;
+    justify-content: flex-end;
+    height: 300px;
+    margin: 0 30px;
+}
+
+
+.card__blog {
+    width: 360px;
+    height: 580px;
+    background-color: #c6c6c6;
+}
+
+.informaion__text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px 20px;
+}
+
+.informaion__text>h3 {
+    color: #515151;
+
+    font-size: 1.8rem;
+}
+
+.informaion__text>p {
+    padding: 20px 0;
+    color: #7d7676;
+}
+
+.learn {
+    color: #958b91;
+    border-bottom: 1px solid;
+    width: 100px;
+}
+
+.card__blog:hover {
+    transform: scale(1.1);
+
+    box-shadow: 0 20px 40px rgb(0 0 0 / 13%);
+    transition: all 0.20s;
+}
+
+.grid {
+    display: grid;
+    gap: 30px;
+    align-items: center;
+    height: 718px;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+
+footer {
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.card__pop1:hover {
+    cursor: pointer;
+}
+
+
+i {
+    cursor: pointer;
+}
+
+
+.card__blog {
+    cursor: pointer;
+}
+
+.img__population1 {
+    cursor: pointer;
+}
